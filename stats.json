@@ -1,15 +1,9 @@
 {
-  "visitors": 1,
-  "totalVisits": 2,
+  "visitors": 0,
+  "totalVisits": 1,
   "articles": {
-    "/article/duz704lp/": {
-      "views": 5,
-      "visitors": [
-        "79298389-d6a9-49d9-8414-bbf98a2c1bd8"
-      ]
-    },
     "/article/dvlvx1vm/": {
-      "views": 1,
+      "views": 6,
       "visitors": [
         "79298389-d6a9-49d9-8414-bbf98a2c1bd8"
       ]
