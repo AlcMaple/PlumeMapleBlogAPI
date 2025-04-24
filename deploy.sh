@@ -41,7 +41,7 @@ echo "检查 comments.json 文件..."
 ssh $REMOTE_USER@$REMOTE_HOST "
     if [ ! -f \"${REMOTE_DIR}comments.json\" ]; then
         echo '创建空的 comments.json 文件...'
-        echo '[]' > \"${REMOTE_DIR}comments.json\"
+        echo '{}' > \"${REMOTE_DIR}comments.json\"
         chmod 666 \"${REMOTE_DIR}comments.json\"
     else
         echo 'comments.json 文件已存在'
